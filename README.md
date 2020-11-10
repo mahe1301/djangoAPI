@@ -7,8 +7,9 @@ A simple wallet django app.
 
 To use the Wallet APIs, follow these steps:
 
-1.Create a virtual environment (python -m venv bgVenv)
-2.Follow the below steps to activate the virtual environment and install the packages mentioned 
+1. Create a virtual environment (python -m venv bgVenv)
+
+2. Follow the below steps to activate the virtual environment and install the packages mentioned 
 ```shell
 Path>bgVenv\Scripts\activate
 (bgVenv) D:\ws>pip install django
@@ -17,7 +18,7 @@ Path>bgVenv\Scripts\activate
 #Download link : https://www.lfd.uci.edu/~gohlke/pythonlibs/#mysqlclient
 ```
 
-3.Add rest_framework,rest_framework.authtoken and restapiapp to INSTALLED_APPS
+3. Add rest_framework,rest_framework.authtoken and restapiapp to INSTALLED_APPS
 
 ```shell
 INSTALLED_APPS = [
@@ -28,7 +29,7 @@ INSTALLED_APPS = [
 ]
 ```
 
-4.Add the application's urls to your urlconf
+4. Add the application's urls to your urlconf
 
 ```shell
 from django.urls import path
@@ -39,7 +40,7 @@ urlpatterns = [
 ]
 ```
 
-5.Apply migrations:
+5. Apply migrations:
 
 ```python
 (bgVenv) D:\ws>python manage.py makemigrations
